@@ -6,7 +6,7 @@ internal class FooTest {
     @Test
     fun fooTest(){
         runBlocking {
-        println(Foo.greetAsync("hi").await())
+        println(Foo.greetAsync("world").await())
         }
     }
 }
